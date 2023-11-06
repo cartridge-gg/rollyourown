@@ -48,6 +48,10 @@ export * from "./Heart";
 export * from "./Skull";
 export * from "./Siren";
 export * from "./Truck";
+export * from "./Starknet";
+export * from "./Ethereum";
+export * from "./Paper";
+export * from "./Disconnect";
 
 // Template for adding new icons. When copying svg from figma, viewBox is assumed
 // to be 36x36, otherwise override within individual icons.
