@@ -1,5 +1,5 @@
 [package]
-cairo-version = "2.3.0"
+cairo-version = "2.4.0"
 name = "rollyourown"
 version = "0.1.0"
 
@@ -7,9 +7,8 @@ version = "0.1.0"
 sierra-replace-ids = true
 
 [dependencies]
-# cubit = {git = "https://github.com/influenceth/cubit.git"}
-dojo = {git = "https://github.com/dojoengine/dojo.git", tag = "v0.3.15"}
-# dojo = {git = "https://github.com/dojoengine/dojo.git", rev = "d7f46502cba3d6462b68a4dfb07336377bca2678"}
+dojo = { git = "https://github.com/dojoengine/dojo.git", tag = "v0.4.4" }
+token = { git = "https://github.com/dojoengine/origami.git", rev = "e873a5a" }
 
 [[target.dojo]]
 
@@ -48,4 +47,3 @@ website = "https://rollyourown.preview.cartridge.gg/"
 icon_uri = "file://assets/icon.png"
 cover_uri = "file://assets/cover.png"
 socials.x = "https://x.com/TheDopeWars"
-

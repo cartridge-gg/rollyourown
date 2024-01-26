@@ -3,8 +3,8 @@ version = 1
 
 [[package]]
 name = "dojo"
-version = "0.3.15"
-source = "git+https://github.com/dojoengine/dojo.git?tag=v0.3.15#cdbaca4121b1642e1a8ca40d6831bad73d28ed26"
+version = "0.4.4"
+source = "git+https://github.com/dojoengine/dojo.git?tag=v0.4.4#8afd8c903d71083b8487a5b4a0cfc9360dee0772"
 dependencies = [
  "dojo_plugin",
 ]
@@ -17,6 +17,15 @@ source = "git+https://github.com/dojoengine/dojo?tag=v0.3.11#1e651b5d4d3b79b14a7
 [[package]]
 name = "rollyourown"
 version = "0.1.0"
+dependencies = [
+ "dojo",
+ "token",
+]
+
+[[package]]
+name = "token"
+version = "0.0.0"
+source = "git+https://github.com/dojoengine/origami.git?rev=e873a5a#e873a5a653c171cb553db4d660542083f03e330a"
 dependencies = [
  "dojo",
 ]
